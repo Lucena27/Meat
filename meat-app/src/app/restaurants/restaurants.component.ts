@@ -10,10 +10,10 @@ export class RestaurantsComponent implements OnInit {
 
   restaurants: Restaurant[]
 
-  constructor(private restaurantsServive: RestaurantsService) { }
+  constructor(private restaurantsService: RestaurantsService) { }
 
   ngOnInit() {
-    this.restaurantsServive.restaurants()
+    this.restaurantsService.restaurants()
       .subscribe(restaurants => this.restaurants = restaurants)
   }
 
