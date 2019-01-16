@@ -465,6 +465,26 @@
         }
       ],
       "id": 6
+    },
+    {
+      "name": "teste",
+      "email": "teste@teste.com",
+      "emailConfirmation": "teste@teste.com",
+      "address": "rua teste",
+      "number": "123",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 2,
+          "menuId": "cup-cake"
+        },
+        {
+          "quantity": 1,
+          "menuId": "donut"
+        }
+      ],
+      "id": 7
     }
   ]
 }
